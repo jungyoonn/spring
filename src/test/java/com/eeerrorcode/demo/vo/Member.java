@@ -1,7 +1,6 @@
 package com.eeerrorcode.demo.vo;
 
 import java.lang.System.Logger.Level;
-import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
 import lombok.Builder;
