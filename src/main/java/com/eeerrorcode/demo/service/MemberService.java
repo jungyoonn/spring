@@ -12,8 +12,9 @@ import lombok.extern.log4j.Log4j2;
 public class MemberService {
     @Autowired
     private MemberMapper mapper;
-    
-    public void selectNow() {
+
+    public String selectNow() {
         log.error(mapper.selectNow());
+        return mapper.selectNow();
     }
 }
