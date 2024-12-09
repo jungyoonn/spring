@@ -3,13 +3,20 @@ package com.eeerrorcode.demo.vo;
 import java.lang.System.Logger.Level;
 import java.util.logging.Logger;
 
+import org.springframework.stereotype.Component;
+
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Data
 @Builder
 @Slf4j
+@Component
+@NoArgsConstructor
+@AllArgsConstructor
 public class Member {
     private String id;
     private String pw;
